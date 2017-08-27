@@ -12,3 +12,4 @@ systemctl daemon-reload
 systemctl restart docker
 docker -v
 docker images
+usermod -aG docker azureuser
